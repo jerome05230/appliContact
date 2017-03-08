@@ -1,0 +1,6 @@
+$ mysql -u root -p
+mysql> create database dbContact;
+mysql> grant all privileges on dbContact.* to admindbContact@localhost identified by '123456789';
+mysql> exit;
+$ mysql -u adminDbContact -p dbContact
+
